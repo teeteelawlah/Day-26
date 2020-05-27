@@ -1,0 +1,111 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	background-color: #3b3129f3;
+	line-height: 1.8;
+}
+
+.showcase {
+	background-image:url('Balloons.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 0 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 100px;
+}
+.showcase h1{
+	font-size: 40px;
+	line-height: 1.2;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+	color:  #3b3129f3;
+}
+
+span{
+	color: saddlebrown;
+	font-size: 20px;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+.showcase p{
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 1.0;
+	padding-bottom: 20px;
+	color: #000;
+}
+
+.showcase .button{
+	font-size: 15px;
+	text-decoration: none;
+	color: navajowhite;
+	background-color: saddlebrown;
+	border: #926239 1px solid;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.showcase button:hover{
+	background: #926239;
+	color: #fff;
+}
+
+.showcase .button1{
+	font-size: 15px;
+	text-decoration: none;
+	color:navajowhite;
+	background-color: brown;
+	border: #926239 1px solid;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.showcase button:hover{
+	background: #926239;
+	color: #fff;
+}
+
+.showcase .button2{
+	font-size: 15px;
+	text-decoration: none;
+	color: navajowhite;
+	background-color: peru;
+	border: #926239 1px solid;
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin: 10px;
+}
+.showcase button:hover{
+	background: #926239;
+	color: #fff;
+}
+
+@media screen and (max-width:550px){
+	.showcase h1{
+		font-size: 25px;
+	}
+	.showcase p{
+		font-size: 12px;
+	}
+
+	span{
+		font-size: 15px;
+	}
+
+	.showcase .button, .showcase .button1, .showcase .button2{
+		font-size: 12px;
+	}
+}

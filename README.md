@@ -1,2 +1,2 @@
 # Day26
-https://teeteelawlah.github.io/Day-26/
+https://teeteelawlah.github.io/Rock-Paper-Scissors/
